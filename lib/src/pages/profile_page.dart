@@ -46,7 +46,7 @@ class ProfilePage extends StatelessWidget {
         children: [
           Expanded(
             child: ListView(
-              children: const <Widget>[
+              children:  <Widget>[
                 SizedBox(height: 25),
 
                 Center(
@@ -101,7 +101,7 @@ class ProfilePage extends StatelessWidget {
                         radius: 30,
                         backgroundColor: Colors.green,
                         child:
-                            circleIcon(imagePath: 'lib/images/shareGreen2.png'),
+                            circleIcon(imagePath: 'lib/images/sharegreen2.png'),
                       ),
 
                       SizedBox(width: 20),
