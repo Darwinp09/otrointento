@@ -47,13 +47,13 @@ class ProfilePage extends StatelessWidget {
           Expanded(
             child: ListView(
               children:  <Widget>[
-                SizedBox(height: 25),
+                SizedBox(height: 20),
 
                 Center(
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: [
-                      SizedBox(width: 15),
+                      SizedBox(width: 10),
 
                       //telefono
                       CircleAvatar(
@@ -72,7 +72,7 @@ class ProfilePage extends StatelessWidget {
                             imagePath: 'lib/images/messageYellow.png'),
                       ),
 
-                      SizedBox(width: 20),
+                      SizedBox(width: 10),
 
                       //fotografia
                       CircleAvatar(
@@ -84,7 +84,7 @@ class ProfilePage extends StatelessWidget {
                         ),
                       ),
 
-                      SizedBox(width: 20),
+                      SizedBox(width: 10),
 
                       //estrella
                       CircleAvatar(
@@ -104,7 +104,7 @@ class ProfilePage extends StatelessWidget {
                             circleIcon(imagePath: 'lib/images/sharegreen2.png'),
                       ),
 
-                      SizedBox(width: 20),
+                      SizedBox(width: 10),
                     ],
                   ),
                 ),
@@ -338,7 +338,7 @@ class ProfilePage extends StatelessWidget {
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
-                            SizedBox(width: 30),
+                            SizedBox(width: 20),
                             //facebook
                             CircleAvatar(
                               radius: 30,
@@ -347,7 +347,7 @@ class ProfilePage extends StatelessWidget {
                                   imagePath: 'lib/images/facebookLogo.png'),
                             ),
 
-                            SizedBox(width: 20),
+                            SizedBox(width: 10),
 
                             //twitter
                             CircleAvatar(
@@ -357,7 +357,7 @@ class ProfilePage extends StatelessWidget {
                                   imagePath: 'lib/images/twitterLogo.png'),
                             ),
 
-                            SizedBox(width: 20),
+                            SizedBox(width: 10),
 
                             //instagram
                             CircleAvatar(
@@ -367,7 +367,7 @@ class ProfilePage extends StatelessWidget {
                                   imagePath: 'lib/images/instagramLogo.png'),
                             ),
 
-                            SizedBox(width: 20),
+                            SizedBox(width: 10),
 
                             //googlePlus
                             CircleAvatar(
@@ -377,7 +377,7 @@ class ProfilePage extends StatelessWidget {
                                   imagePath: 'lib/images/googlePlusLogo.png'),
                             ),
 
-                            SizedBox(width: 20),
+                            SizedBox(width: 10),
 
                             //plus
                             CircleAvatar(
@@ -386,7 +386,7 @@ class ProfilePage extends StatelessWidget {
                               child: circleIcon(
                                   imagePath: 'lib/images/plusIcon.png'),
                             ),
-                            SizedBox(width: 30),
+                            SizedBox(width: 10),
                           ],
                         ),
                       ),
