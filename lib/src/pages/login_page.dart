@@ -32,7 +32,7 @@ class LoginPage extends StatelessWidget {
 
         const SizedBox(height: 50),*/
 
-                const Column(
+                 Column(
                   children: [
                     CircleAvatar(
                       radius: 100.0,
